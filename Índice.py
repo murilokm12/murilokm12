@@ -1,16 +1,14 @@
 lista = ['marcos', 'Murilo', 'maria']
-print('lista:', lista)
+print('lista inicial:', lista)
 
-nome = input('Digite o nome que voce quer excluir :')
+while True:
+    nome = input('Digite o nome que você quer excluir: ')
 
-
-
-try:
-    lista.remove(nome)
-    print('nome excluido')
-except:
-    print('o nome nao existe')
-
-
-
-
+    if nome in lista:
+        lista.remove(nome)
+        print('Nome excluído!')
+        print('Lista atualizada:', lista)
+        break   
+    else:
+        print('O nome não existe, tente novamente.')
+        
