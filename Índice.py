@@ -1,4 +1,5 @@
-print('lista:','marcos,Murilo,maria')
+lista = ['marcos', 'Murilo', 'maria']
+print('lista:', lista)
 
 nome = input('Digite o nome que voce quer excluir :')
 
@@ -9,6 +10,7 @@ try:
     print('nome excluido')
 except:
     print('o nome nao existe')
+
 
 
 
