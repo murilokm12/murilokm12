@@ -1,5 +1,5 @@
 nome = input("digite sua nome:")
-idade = (input("digite sua idade:"))
+idade = input("digite sua idade:"))
 
 def indent(nome,idade):
  
@@ -7,4 +7,5 @@ def indent(nome,idade):
         print(f'Olá {nome},bom dia')
 
 print(f"seu nome é {nome}, e sua idade é {idade}")
+
 
