@@ -7,3 +7,4 @@ print(f"{porcentagem}% de {valor_total}é:{valor_parte}")
 
 
 
+
